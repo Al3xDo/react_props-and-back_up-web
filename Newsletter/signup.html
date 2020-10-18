@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <!-- <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico" /> -->
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="image/favicon-16x16.png"
+        />
+        <title>Newsletter Signup</title>
+
+        <link
+            rel="canonical"
+            href="https://getbootstrap.com/docs/4.0/examples/sign-in/"
+        />
+
+        <!-- Bootstrap core CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+
+        <!-- Custom styles for this template -->
+        <!-- day la page static nen se js se chi load html -->
+        <!-- dia chi duoi day la dia chi o file public -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body class="text-center">
+        <!-- form se duoc post vao o dia chi cua action / >> homeground -->
+        <form action="/" class="form-signin" method="POST">
+            <img
+                class="mb-4"
+                src="image/lablogo.jpg"
+                alt=""
+                width="150"
+                height="150"
+                style="border-radius: 60%;"
+            />
+            <h1 class="h3 mb-3 font-weight-normal">Sign up to my Newsletter</h1>
+            <!-- FIRST NAME -->
+            <input
+                type="text"
+                class="form-control top"
+                placeholder="First Name"
+                name="firstName"
+                required
+                autofocus
+            />
+            <!-- auto focus>> tro se xuat hien o do dau tien -->
+            <!-- LAST NAME -->
+            <input
+                type="text"
+                class="form-control middle"
+                placeholder="Last Name"
+                name="lastName"
+                required
+            />
+            <!-- EMAIL -->
+            <input
+                type="email"
+                class="form-control bottom"
+                placeholder="Email"
+                name="email"
+                required
+            />
+            <button class="btn btn-lg btn-primary btn-block" type="submit">
+                Sign in
+            </button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2020-2021/p></p>
+        </form>
+    </body>
+</html>
